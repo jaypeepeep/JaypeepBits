@@ -1,0 +1,11 @@
+.SidebarImg {
+  width: 200px;
+  height: 200px;
+  flex-shrink: 0;
+}
+
+.SidebarSection {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}

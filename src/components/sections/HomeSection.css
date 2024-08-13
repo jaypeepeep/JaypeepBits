@@ -1,13 +1,20 @@
 .HomeSection {
   display: flex;
-  flex-direction: row;
-  justify-content: center; /* Center HomeLeft and HomeRight horizontally */
-  align-items: center; /* Center HomeLeft and HomeRight vertically */
-  height: auto; /* Adjust height as needed */
-  padding: 50px;
-  flex: 1;
-  background-color: black; /* Optional: background color for HomeSection */
-  color: white; /* Optional: text color for HomeSection */
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: black;
+  color: white;
+  height: 100vh;
+}
+
+.HomeContent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 1200px; /* Adjust based on your preference */
+  width: 100%;
+  margin: 0 auto;
 }
 
 .HomeH1,
@@ -34,11 +41,10 @@
 .HomeBtn {
   width: 168px;
   height: 56px;
-  flex-shrink: 0;
   border-radius: 10px;
   background: #fff;
   color: #000;
-  font-family: Inter, sans-serif; /* Added a fallback font */
+  font-family: Inter, sans-serif;
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
@@ -48,19 +54,17 @@
 .HomeLeft {
   display: flex;
   flex-direction: column;
-  flex: 1; /* Allow the section to take only the necessary space */
-  padding: 0 20px; /* Adjust padding to avoid extra space */
+  margin-left: 80px;
 }
 
 .HomeRight {
   display: flex;
-  flex: 1; /* Allow the section to take only the necessary space */
-  padding: 0 20px; /* Adjust padding to avoid extra space */
 }
 
 .HomeImg {
-  width: 100%; /* Adjust width to make it responsive */
-  max-width: 497px; /* Set a maximum width */
-  height: auto; /* Maintain aspect ratio */
+  width: 100%;
+  max-width: 497px;
+  min-width: 400px;
+  height: auto;
   flex-shrink: 0;
 }

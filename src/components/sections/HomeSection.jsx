@@ -6,7 +6,7 @@ import "./HomeSection.css";
 const HomeSection = () => {
   return (
     <section id="home" class="HomeSection">
-      <div class="HomeContent">
+      <div class="HomeContainer">
         <div class="HomeLeft">
           <h1 class="HomeH1">Hi, I’m JP! Lorem Ipsum Odor Amet</h1>
           <p class="HomeP">

@@ -1,4 +1,70 @@
 .SkillsSection {
-  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
   background-color: black;
+  color: white;
+  padding: 100px;
+}
+
+.skillsContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.skillsContent {
+  display: flex;
+  flex-direction: column;
+}
+
+.skillsHeader {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  flex-direction: column;
+}
+
+.skillsH1 {
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  line-height: normal;
+  font-size: 70px;
+  font-weight: 800;
+  margin: 0px;
+}
+
+.skillsP {
+  color: #fff;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.skillsBox {
+  display: flex;
+  flex-direction: column;
+}
+
+.skillsItems {
+  display: flex; /* Aligns items horizontally */
+}
+
+.skillsItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.skillImg {
+  width: 150px;
+  height: 150px;
 }

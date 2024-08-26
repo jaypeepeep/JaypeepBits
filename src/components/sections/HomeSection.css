@@ -8,11 +8,11 @@
   height: 100vh;
 }
 
-.HomeContent {
+.HomeContainer {
   display: flex;
   justify-content: center;
   align-items: center;
-  max-width: 1200px; /* Adjust based on your preference */
+  max-width: 1200px;
   width: 100%;
   margin: 0 auto;
 }

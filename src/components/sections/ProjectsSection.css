@@ -1,4 +1,76 @@
-.ProjectSection {
-  color: black;
+.projectSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
   background-color: white;
+  color: black;
+  padding: 100px;
+}
+
+.projectContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.projectContent {
+  display: flex;
+  flex-direction: column;
+}
+
+.projectHeader {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  flex-direction: column;
+}
+
+.projectH1 {
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  line-height: normal;
+  font-size: 70px;
+  font-weight: 800;
+  margin: 0px;
+}
+
+.projectP {
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.projectBox {
+  display: flex;
+  flex-direction: column;
+}
+
+.projectItems {
+  display: flex; /* Aligns items horizontally */
+}
+
+.projectItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.projectImg {
+  width: 150px;
+  height: 150px;
+}
+
+.projectCards {
+  display: flex;
+  gap: 50px;
+  flex-wrap: wrap;
+  justify-content: center;
 }

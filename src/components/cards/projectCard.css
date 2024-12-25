@@ -1,5 +1,5 @@
 .card {
-  width: 431px;
+  width: 500px;
   height: 384px;
   flex-shrink: 0;
   border-radius: 50px;
@@ -56,5 +56,5 @@
 
 .card-bottom:hover .card-title,
 .card-bottom:hover .card-description {
-  color: green;
+  color: #24b600;
 }

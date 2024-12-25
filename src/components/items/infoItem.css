@@ -47,6 +47,7 @@
   text-underline-position: from-font;
 }
 
-.infoLink:hover {
+.infoLink:hover,
+.infoText:hover {
   text-decoration: underline;
 }

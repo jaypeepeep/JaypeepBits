@@ -11,10 +11,13 @@ const Sidebar = () => {
       <a href="#skills">Skills</a>
       <a href="#project">Project</a>
       <a href="#contact">Contact</a>
-      <a href="https://www.facebook.com/jaypeepeep/" target="_blank">
+      <a href="https://www.facebook.com/johnpatttt/" target="_blank">
         FaceBook
       </a>
-      <a href="https://www.linkedin.com/in/jaypeepeep/" target="_blank">
+      <a
+        href="https://www.linkedin.com/in/john-patrick-lagatuz/"
+        target="_blank"
+      >
         LinkedIn
       </a>
       <a href="https://github.com/jaypeepeep" target="_blank">

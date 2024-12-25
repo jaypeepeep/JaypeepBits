@@ -53,7 +53,7 @@
 }
 
 .projectItems {
-  display: flex; /* Aligns items horizontally */
+  display: flex;
 }
 
 .projectItem {
@@ -69,8 +69,8 @@
 }
 
 .projectCards {
-  display: flex;
-  gap: 50px;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(2, 0fr);
+  gap: 30px;
   justify-content: center;
 }

@@ -1,4 +1,82 @@
 .ContactSection {
-  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
   background-color: black;
+  color: white;
+  padding: 100px;
+}
+
+.contactContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.contactContent {
+  display: flex;
+  flex-direction: column;
+}
+
+.contactHeader {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  flex-direction: column;
+}
+
+.contactH1 {
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  line-height: normal;
+  font-size: 70px;
+  font-weight: 800;
+  margin: 0px;
+}
+
+.contactH4 {
+  color: #fff;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 0px;
+}
+
+.contactP {
+  color: #fff;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.contactBox {
+  display: flex;
+  flex-direction: row;
+  margin-top: 30px;
+}
+
+.contactLeft {
+  display: flex;
+  flex-direction: column;
+}
+
+.contactInformation,
+.socialInformation {
+  display: flex;
+  flex-direction: column;
+  flex: 0;
+  gap: 30px;
+}
+
+.contactRight {
+  display: flex;
 }

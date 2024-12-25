@@ -1,0 +1,52 @@
+.infoItemContainer {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+.infoIcon {
+  height: 50px;
+  width: 50px;
+  background-color: black;
+  flex: 0.1;
+}
+
+.infoDetails {
+  display: flex;
+  flex-direction: column;
+}
+
+.infoLabel {
+  color: #fff;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+  margin: 0;
+  opacity: 0.7;
+}
+
+.infoLink,
+.infoText {
+  margin: 0;
+  color: white;
+  text-decoration: none;
+  color: #fff;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-decoration-skip-ink: none;
+  text-decoration-thickness: auto;
+  text-underline-offset: auto;
+  text-underline-position: from-font;
+}
+
+.infoLink:hover {
+  text-decoration: underline;
+}

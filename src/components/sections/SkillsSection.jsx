@@ -3,6 +3,39 @@ import React from "react";
 import "./SkillsSection.css";
 import SkillsBox from "../boxes/skillsBox.jsx";
 
+import php from "../../assets/php.png";
+import html from "../../assets/html.png";
+import css from "../../assets/css.png";
+import js from "../../assets/javascript.png";
+import python from "../../assets/python.png";
+import java from "../../assets/java.png";
+import mysql from "../../assets/mysql.png";
+import sqlite from "../../assets/sqlite.png";
+import canva from "../../assets/canva.png";
+import figma from "../../assets/figma.png";
+import sql from "../../assets/sql.png";
+import kotlin from "../../assets/kotlin.png";
+import xml from "../../assets/xml.png";
+import react from "../../assets/react.png";
+import nodejs from "../../assets/nodejs.png";
+import jupyter from "../../assets/jupyter.png";
+import flask from "../../assets/flask.png";
+import pyqt5 from "../../assets/pyqt5.png";
+import tensorflow from "../../assets/tensorflow.png";
+import keras from "../../assets/keras.png";
+import matplotlib from "../../assets/matplotlib.png";
+import pandas from "../../assets/pandas.png";
+import oracle from "../../assets/oracle.png";
+import phprunner from "../../assets/phprunner.png";
+import wamp from "../../assets/wamp.png";
+import xampp from "../../assets/xampp.png";
+import phpmyadmin from "../../assets/phpmyadmin.png";
+import vscode from "../../assets/vscode.png";
+import androidstudio from "../../assets/androidstudio.png";
+import git from "../../assets/git.png";
+import github from "../../assets/github.png";
+import sqlmaestro from "../../assets/sqlmaestro.png";
+
 const SkillsSection = () => {
   return (
     <section id="skills" class="SkillsSection">
@@ -22,51 +55,101 @@ const SkillsSection = () => {
               title="Programming Languages:"
               item={[
                 {
+                  alt: "PHP",
+                  img: php,
+                  label: "PHP",
+                },
+                {
                   alt: "HTML",
-                  img: "https://e7.pngegg.com/pngimages/410/100/png-clipart-web-development-html-responsive-web-design-logo-javascript-html-angle-web-design-thumbnail.png",
+                  img: html,
                   label: "HTML",
                 },
                 {
-                  alt: "JavaScript",
-                  img: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png",
-                  label: "JavaScript",
+                  alt: "CSS",
+                  img: css,
+                  label: "CSS",
                 },
                 {
                   alt: "JavaScript",
-                  img: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png",
+                  img: js,
                   label: "JavaScript",
                 },
                 {
-                  alt: "JavaScript",
-                  img: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png",
-                  label: "JavaScript",
+                  alt: "Python",
+                  img: python,
+                  label: "Python",
                 },
                 {
-                  alt: "JavaScript",
-                  img: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png",
-                  label: "JavaScript",
+                  alt: "Java",
+                  img: java,
+                  label: "Java",
                 },
                 {
-                  alt: "JavaScript",
-                  img: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png",
-                  label: "JavaScript",
+                  alt: "SQL",
+                  img: sql,
+                  label: "SQL",
+                },
+                {
+                  alt: "Kotlin",
+                  img: kotlin,
+                  label: "Kotlin",
+                },
+                {
+                  alt: "XML",
+                  img: xml,
+                  label: "XML",
                 },
               ]}
             />
           </div>
           <div>
             <SkillsBox
-              title="Web Technologies:"
+              title="Framework & Libraries:"
               item={[
                 {
-                  alt: "HTML",
-                  img: "https://e7.pngegg.com/pngimages/410/100/png-clipart-web-development-html-responsive-web-design-logo-javascript-html-angle-web-design-thumbnail.png",
-                  label: "HTML",
+                  alt: "React",
+                  img: react,
+                  label: "React",
                 },
                 {
-                  alt: "JavaScript",
-                  img: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png",
-                  label: "JavaScript",
+                  alt: "Node.js",
+                  img: nodejs,
+                  label: "Node.js",
+                },
+                {
+                  alt: "Jupyter",
+                  img: jupyter,
+                  label: "Jupyter",
+                },
+                {
+                  alt: "Flask",
+                  img: flask,
+                  label: "Flask",
+                },
+                {
+                  alt: "PyQt5",
+                  img: pyqt5,
+                  label: "PyQt5",
+                },
+                {
+                  alt: "Tensorflow",
+                  img: tensorflow,
+                  label: "Tensorflow",
+                },
+                {
+                  alt: "Keras",
+                  img: keras,
+                  label: "Keras",
+                },
+                {
+                  alt: "Matplotlib",
+                  img: matplotlib,
+                  label: "Matplotlib",
+                },
+                {
+                  alt: "Pandas",
+                  img: pandas,
+                  label: "Pandas",
                 },
               ]}
             />
@@ -76,14 +159,71 @@ const SkillsSection = () => {
               title="Database Technologies:"
               item={[
                 {
-                  alt: "HTML",
-                  img: "https://e7.pngegg.com/pngimages/410/100/png-clipart-web-development-html-responsive-web-design-logo-javascript-html-angle-web-design-thumbnail.png",
-                  label: "HTML",
+                  alt: "MySQL",
+                  img: mysql,
+                  label: "MySQL",
                 },
                 {
-                  alt: "JavaScript",
-                  img: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png",
-                  label: "JavaScript",
+                  alt: "SQLite",
+                  img: sqlite,
+                  label: "SQLite",
+                },
+                {
+                  alt: "Oracle",
+                  img: oracle,
+                  label: "Oracle",
+                },
+              ]}
+            />
+          </div>
+          <div>
+            <SkillsBox
+              title="Developer Tools:"
+              item={[
+                {
+                  alt: "PHPRunner",
+                  img: phprunner,
+                  label: "PHPRunner",
+                },
+                {
+                  alt: "WAMP",
+                  img: wamp,
+                  label: "WAMP",
+                },
+                {
+                  alt: "XAMPP",
+                  img: xampp,
+                  label: "XAMPP",
+                },
+                {
+                  alt: "PhpMyAdmin",
+                  img: phpmyadmin,
+                  label: "PhpMyAdmin",
+                },
+                {
+                  alt: "VS Code",
+                  img: vscode,
+                  label: "VS Code",
+                },
+                {
+                  alt: "Android Studio",
+                  img: androidstudio,
+                  label: "Android Studio",
+                },
+                {
+                  alt: "Git",
+                  img: git,
+                  label: "Git",
+                },
+                {
+                  alt: "GitHub",
+                  img: github,
+                  label: "GitHub",
+                },
+                {
+                  alt: "SQL Maestro",
+                  img: sqlmaestro,
+                  label: "SQL Maestro",
                 },
               ]}
             />
@@ -93,48 +233,14 @@ const SkillsSection = () => {
               title="UI/UX Design Tools:"
               item={[
                 {
-                  alt: "HTML",
-                  img: "https://e7.pngegg.com/pngimages/410/100/png-clipart-web-development-html-responsive-web-design-logo-javascript-html-angle-web-design-thumbnail.png",
-                  label: "HTML",
+                  alt: "Figma",
+                  img: figma,
+                  label: "Figma",
                 },
                 {
-                  alt: "JavaScript",
-                  img: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png",
-                  label: "JavaScript",
-                },
-              ]}
-            />
-          </div>
-          <div>
-            <SkillsBox
-              title="Data Science and Machine Learning:"
-              item={[
-                {
-                  alt: "HTML",
-                  img: "https://e7.pngegg.com/pngimages/410/100/png-clipart-web-development-html-responsive-web-design-logo-javascript-html-angle-web-design-thumbnail.png",
-                  label: "HTML",
-                },
-                {
-                  alt: "JavaScript",
-                  img: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png",
-                  label: "JavaScript",
-                },
-              ]}
-            />
-          </div>
-          <div>
-            <SkillsBox
-              title="Professional Skills:"
-              item={[
-                {
-                  alt: "HTML",
-                  img: "https://e7.pngegg.com/pngimages/410/100/png-clipart-web-development-html-responsive-web-design-logo-javascript-html-angle-web-design-thumbnail.png",
-                  label: "HTML",
-                },
-                {
-                  alt: "JavaScript",
-                  img: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png",
-                  label: "JavaScript",
+                  alt: "Canva",
+                  img: canva,
+                  label: "Canva",
                 },
               ]}
             />

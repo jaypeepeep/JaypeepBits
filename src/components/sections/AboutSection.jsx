@@ -31,7 +31,7 @@ const AboutSection = () => {
                   content={[
                     { label: "Date of Birth", value: "October 22, 2003" },
                     { label: "Place of Birth", value: "Bacoor, Cavite" },
-                    { label: "Age", value: "20" },
+                    { label: "Age", value: "21" },
                   ]}
                 />
               </div>
@@ -67,6 +67,11 @@ const AboutSection = () => {
               <Box
                 title="Awards"
                 content={[
+                  {
+                    label: "2021",
+                    value:
+                      "CHED Merit Scholar | Commission on Higher Education Regional Office IV",
+                  },
                   {
                     label: "2021",
                     value:

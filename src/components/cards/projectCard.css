@@ -29,17 +29,18 @@
 .card-title {
   color: #fff;
   font-family: Inter;
-  font-size: 36px;
+  font-size: 30px;
   font-style: normal;
   font-weight: 800;
   line-height: normal;
   margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 .card-description {
   color: #fff;
   font-family: Inter;
-  font-size: 20px;
+  font-size: 17px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;

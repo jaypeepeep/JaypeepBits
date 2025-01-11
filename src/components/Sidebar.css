@@ -9,6 +9,7 @@
   display: flex;
   align-items: center;
   flex-direction: column;
+  height: 850px;
 }
 
 .SidebarSection a {
@@ -20,6 +21,11 @@
   line-height: normal;
   text-decoration: none;
   margin-bottom: 30px;
+}
+
+.socialLinks {
+  padding-top: 300px;
+  gap: 15px;
 }
 
 .SidebarSection a:hover {

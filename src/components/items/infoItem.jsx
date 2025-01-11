@@ -1,10 +1,12 @@
 import React from "react";
 import "./infoItem.css";
 
-const InfoItem = ({ icon, label, linkText, linkHref }) => {
+const InfoItem = ({ iconSrc, iconAlt, label, linkText, linkHref }) => {
   return (
     <div className="infoItemContainer">
-      <div className="infoIcon">{icon}</div>
+      <div className="infoIcon">
+        <img src={iconSrc} alt={iconAlt} />
+      </div>
       <div className="infoDetails">
         <p className="infoLabel">{label}</p>
         {linkHref ? (

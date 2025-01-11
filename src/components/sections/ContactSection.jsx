@@ -15,12 +15,17 @@ const ContactSection = () => {
       <div className="contactContainer">
         <div className="contactContent">
           <div className="contactHeader">
-            <h2 className="contactH1">LET'S WORK TOGETHER</h2>
+            <h2 className="contactH1">
+              LET'S <span className="highlighted">WORK</span>{" "}
+              <span className="highlighted">TOGETHER</span>
+            </h2>
+
             <p className="contactP">
-              Lorem ipsum odor amet, consectetuer adipiscing elit. Senectus vel
-              in semper tempus felis semper? Lacus tristique pretium interdum
-              tincidunt cubilia malesuada conubia rhoncus. Ultricies ad eget
-              phasellus aptent ultricies rhoncus aptent convallis neque?
+              After getting to know me, if you're still interested and would
+              like to collaborate on a project or are looking for someone to
+              join your team, feel free to reach out! I'm always happy to
+              connect, learn, and grow, especially when working with others. I
+              look forward to hearing from you! :D
             </p>
           </div>
           <div className="contactBox">

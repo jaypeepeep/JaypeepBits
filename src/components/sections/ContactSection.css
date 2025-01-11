@@ -39,6 +39,10 @@
   margin: 0px;
 }
 
+.highlighted {
+  color: #24b600;
+}
+
 .contactH4 {
   color: #fff;
   font-family: Inter;
@@ -56,6 +60,7 @@
   font-style: normal;
   font-weight: 500;
   line-height: normal;
+  text-align: justify;
 }
 
 .contactBox {

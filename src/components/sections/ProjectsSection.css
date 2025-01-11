@@ -45,6 +45,8 @@
   font-style: normal;
   font-weight: 500;
   line-height: normal;
+  text-align: justify;
+  margin-bottom: 50px;
 }
 
 .projectBox {

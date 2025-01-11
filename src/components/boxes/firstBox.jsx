@@ -34,6 +34,7 @@ const FirstBox = ({ title, content }) => {
     fontStyle: "normal",
     fontWeight: "500",
     lineHeight: "normal",
+    textAlign: "justify",
     margin: "0",
   };
 

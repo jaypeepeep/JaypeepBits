@@ -46,6 +46,7 @@
   font-style: normal;
   font-weight: 500;
   line-height: normal;
+  text-align: justify;
 }
 
 .skillsBox {
@@ -54,7 +55,7 @@
 }
 
 .skillsItems {
-  display: flex; /* Aligns items horizontally */
+  display: flex;
 }
 
 .skillsItem {

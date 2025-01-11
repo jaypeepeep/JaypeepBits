@@ -44,10 +44,11 @@ const SkillsSection = () => {
           <div class="skillsHeader">
             <h2 class="skillsH1"> Skills</h2>
             <p class="skillsP">
-              Lorem ipsum odor amet, consectetuer adipiscing elit. Senectus vel
-              in semper tempus felis semper? Lacus tristique pretium interdum
-              tincidunt cubilia malesuada conubia rhoncus. Ultricies ad eget
-              phasellus aptent ultricies rhoncus aptent convallis neque?
+              One thing I believe in life is that we should embrace experiences,
+              whether or not we know we’ll like them. That’s why I take every
+              opportunity to explore different technologies. Through this
+              journey, I’ve developed a set of skills that help me turn problems
+              into solutions:
             </p>
           </div>
           <div>

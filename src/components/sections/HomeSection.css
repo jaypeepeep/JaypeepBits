@@ -21,19 +21,23 @@
 .HomeP {
   margin: 0;
   color: #fff;
-  font-family: Inter, sans-serif; /* Added a fallback font */
+  font-family: Inter, sans-serif;
   font-style: normal;
   line-height: normal;
 }
 
+.highlight {
+  color: #24b600;
+  font-weight: 800;
+}
+
 .HomeH1 {
-  margin-bottom: 20px;
   font-size: 70px;
   font-weight: 800;
 }
 
 .HomeP {
-  margin-bottom: 20px;
+  margin-bottom: 30px;
   font-size: 24px;
   font-weight: 400;
 }
@@ -77,4 +81,35 @@
   min-width: 400px;
   height: auto;
   flex-shrink: 0;
+}
+
+.highlighted-container {
+  display: block;
+  font-size: 70px;
+  font-weight: 800;
+  color: #24b600;
+}
+
+.highlighted {
+  display: inline-block;
+}
+
+.beforeHighlight {
+  font-size: 70px;
+  font-weight: 800;
+  color: #fff;
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  line-height: normal;
+}
+
+.afterhighlight {
+  font-size: 70px;
+  font-weight: 800;
+  color: #fff;
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  line-height: normal;
+  margin: 0px;
+  margin-bottom: 20px;
 }

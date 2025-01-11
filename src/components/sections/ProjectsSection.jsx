@@ -15,7 +15,12 @@ const ProjectSection = () => {
         <div className="projectContent">
           <div className="projectHeader">
             <h2 className="projectH1">Projects</h2>
-            <p className="projectP">These are my projects.</p>
+            <p className="projectP">
+              Whether working solo or with a team, I always make sure my
+              projects make sense, are backed by solid research, and bring
+              something new to the table. Here are a few of them for you to
+              check out:
+            </p>
           </div>
           <div className="projectCards">
             <ProjectCard

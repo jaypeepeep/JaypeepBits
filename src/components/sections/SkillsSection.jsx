@@ -33,7 +33,7 @@ import phpmyadmin from "../../assets/phpmyadmin.png";
 import vscode from "../../assets/vscode.png";
 import androidstudio from "../../assets/androidstudio.png";
 import git from "../../assets/git.png";
-import github from "../../assets/github.png";
+import github from "../../assets/githubs.png";
 import sqlmaestro from "../../assets/sqlmaestro.png";
 
 const SkillsSection = () => {

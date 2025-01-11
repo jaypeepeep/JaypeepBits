@@ -1,18 +1,33 @@
 import React from "react";
 import "./projectCard.css";
 
-const ProjectCard = ({ title, description, imageUrl }) => {
+import githubIcon from "../../assets/githubs.png";
+
+const ProjectCard = ({ title, description, image, link }) => {
   return (
-    <div className="card">
-      <div className="card-top">
-        <img src={imageUrl} alt={title} className="card-image" />
+    <a
+      href={link}
+      target="_blank"
+      rel="noopener noreferrer"
+      className="card-link"
+    >
+      <div className="card">
+        <div className="card-top">
+          <img src={image} alt={title} className="card-image" />
+        </div>
+        <div className="card-bottom">
+          <h2 className="card-title">{title}</h2>
+          <p className="card-description">{description}</p>
+          <span className="github-icon">
+            <img
+              src={githubIcon}
+              alt="GitHub Icon"
+              style={{ width: "30px", height: "30px" }}
+            />
+          </span>
+        </div>
       </div>
-      <div className="card-bottom">
-        <h2 className="card-title">{title}</h2>
-        <p className="card-description">{description}</p>
-        <span className="github-icon">🐱</span>
-      </div>
-    </div>
+    </a>
   );
 };
 

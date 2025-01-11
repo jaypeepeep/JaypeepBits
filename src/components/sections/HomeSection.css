@@ -49,6 +49,16 @@
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  cursor: pointer;
+  border: 2px solid transparent;
+  transition: all 0.3s ease;
+}
+
+.HomeBtn:hover {
+  background: #28a745;
+  color: #fff;
+  border: 2px solid #28a745;
+  transform: scale(1.05);
 }
 
 .HomeLeft {

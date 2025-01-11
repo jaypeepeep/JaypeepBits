@@ -12,7 +12,9 @@ const HomeSection = () => {
           <p class="HomeP">
             Lorem ipsum odor amet, consectetuer adipiscing elit.{" "}
           </p>
-          <button class="HomeBtn">Let's Talk</button>
+          <a href="#contact">
+            <button class="HomeBtn">Let's Talk</button>
+          </a>
         </div>
         <div class="HomeRight">
           <img src={meImage2} alt="John Patrick Lagatuz" class="HomeImg"></img>

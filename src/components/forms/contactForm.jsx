@@ -4,16 +4,22 @@ import "./contactForm.css";
 const ContactForm = () => {
   return (
     <div className="contactFormContainer">
-      <form className="contactForm">
+      <form
+        className="contactForm"
+        action="https://formspree.io/f/xyzzlneb"
+        method="POST"
+      >
         <h2 className="formTitle">GET IN TOUCH</h2>
+
         <label className="formLabel" htmlFor="name">
           Your Name
         </label>
         <input
           className="formInput"
           type="text"
-          id="name"
+          name="name"
           placeholder="What's your name?"
+          required
         />
 
         <label className="formLabel" htmlFor="email">
@@ -22,8 +28,9 @@ const ContactForm = () => {
         <input
           className="formInput"
           type="email"
-          id="email"
+          name="email"
           placeholder="What's your email?"
+          required
         />
 
         <label className="formLabel" htmlFor="message">
@@ -31,9 +38,10 @@ const ContactForm = () => {
         </label>
         <textarea
           className="formTextarea"
-          id="message"
+          name="message"
           rows="5"
           placeholder="What's your message?"
+          required
         ></textarea>
 
         <button type="submit" className="formButton">

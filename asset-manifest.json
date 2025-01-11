@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/MyPortfolio/static/css/main.e2c4a4bb.css",
+    "main.js": "/MyPortfolio/static/js/main.3c30cc4a.js",
+    "static/media/doorme.png": "/MyPortfolio/static/media/doorme.001d5f1de53bee9d8a00.png",
+    "static/media/komyusagip.png": "/MyPortfolio/static/media/komyusagip.e795d0d32fb70bf0749c.png",
+    "static/media/scbvaegan.png": "/MyPortfolio/static/media/scbvaegan.4fd2da5065cc522acc87.png",
+    "static/media/Me.png": "/MyPortfolio/static/media/Me.983e7a53305ebe32bc04.png",
+    "static/media/Me2.png": "/MyPortfolio/static/media/Me2.6f2f4b9d702c95ff62b6.png",
+    "static/media/imik.png": "/MyPortfolio/static/media/imik.b0627782385854f803e4.png",
+    "static/media/phprunner.png": "/MyPortfolio/static/media/phprunner.b46a40f5124c5ff5a3bf.png",
+    "static/media/dtilapia.png": "/MyPortfolio/static/media/dtilapia.8daac77d38124a4670b6.png",
+    "static/media/flask.png": "/MyPortfolio/static/media/flask.febf58582386ed150041.png",
+    "static/media/xampp.png": "/MyPortfolio/static/media/xampp.119f2302b91975f16169.png",
+    "static/media/sqlmaestro.png": "/MyPortfolio/static/media/sqlmaestro.53acf54e0ca6a2514a97.png",
+    "static/media/kotlin.png": "/MyPortfolio/static/media/kotlin.609d4d41d3999a343622.png",
+    "static/media/jupyter.png": "/MyPortfolio/static/media/jupyter.6a989610b9edaab47df0.png",
+    "static/media/githubs.png": "/MyPortfolio/static/media/githubs.8ef457d0e36bafc565b8.png",
+    "static/media/git.png": "/MyPortfolio/static/media/git.86501a94fe2336296fb0.png",
+    "static/media/pyqt5.png": "/MyPortfolio/static/media/pyqt5.20d1f31e64557438e181.png",
+    "static/media/react.png": "/MyPortfolio/static/media/react.6fc33c8f7d5a65423159.png",
+    "static/media/wamp.png": "/MyPortfolio/static/media/wamp.6627b8c3868a68154563.png",
+    "static/media/phpmyadmin.png": "/MyPortfolio/static/media/phpmyadmin.7bf56676103bf90c7a6a.png",
+    "static/media/vscode.png": "/MyPortfolio/static/media/vscode.50493c0762640e4d595f.png",
+    "static/media/androidstudio.png": "/MyPortfolio/static/media/androidstudio.4ca64ab0287ea8df8b5b.png",
+    "static/media/tensorflow.png": "/MyPortfolio/static/media/tensorflow.f042c83c9970a6bd99dd.png",
+    "static/media/nodejs.png": "/MyPortfolio/static/media/nodejs.094be3655facf8d0100a.png",
+    "static/media/sql.png": "/MyPortfolio/static/media/sql.4bd5696312afb1850fc7.png",
+    "static/media/oracle.png": "/MyPortfolio/static/media/oracle.0a88e88b346026fb6f9f.png",
+    "static/media/keras.png": "/MyPortfolio/static/media/keras.344dcfb7530cb0db833e.png",
+    "static/media/xml.png": "/MyPortfolio/static/media/xml.808b5eba67e546539009.png",
+    "static/media/matplotlib.png": "/MyPortfolio/static/media/matplotlib.84c6190ccc3507c7b6a4.png",
+    "index.html": "/MyPortfolio/index.html",
+    "main.e2c4a4bb.css.map": "/MyPortfolio/static/css/main.e2c4a4bb.css.map",
+    "main.3c30cc4a.js.map": "/MyPortfolio/static/js/main.3c30cc4a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e2c4a4bb.css",
+    "static/js/main.3c30cc4a.js"
+  ]
+}

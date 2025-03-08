@@ -54,7 +54,7 @@ const ContactSection = () => {
                   iconAlt="Facebook Icon"
                   label="Facebook"
                   linkText="John Patrick Lagatuz"
-                  linkHref="https://www.facebook.com/johnpatttt"
+                  linkHref="https://www.facebook.com/jeypeeps"
                 />
                 <InfoItem
                   iconSrc={linkedinIcon}

@@ -73,7 +73,7 @@ const Sidebar = () => {
         </div>
         <div className="socialLinks">
           <a
-            href="https://www.facebook.com/johnpatttt/"
+            href="https://www.facebook.com/jeypeeps"
             target="_blank"
             rel="noopener noreferrer"
           >

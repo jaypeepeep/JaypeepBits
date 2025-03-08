@@ -2,10 +2,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 20px;
   background-color: black;
   color: white;
-  padding: 100px;
+  padding: 100px 80px; /* Adjusted to have different horizontal/vertical padding */
 }
 
 .skillsContainer {
@@ -80,6 +79,18 @@
 
 /* Medium Screens (Tablets) */
 @media (max-width: 1024px) {
+  .SkillsSection {
+    padding: 80px 60px;
+  }
+
+  .skillsH1 {
+    font-size: 50px; /* Increased from 40px */
+  }
+
+  .skillsP {
+    font-size: 20px; /* Increased from 16px */
+  }
+
   .skillsGrid {
     grid-template-columns: repeat(3, 1fr);
   }
@@ -87,6 +98,18 @@
 
 /* Small Screens (Phones) */
 @media (max-width: 768px) {
+  .SkillsSection {
+    padding: 60px 40px;
+  }
+
+  .skillsH1 {
+    font-size: 42px; /* Increased from 36px */
+  }
+
+  .skillsP {
+    font-size: 18px; /* Increased from 14px */
+  }
+
   .skillsGrid {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -94,6 +117,18 @@
 
 /* Extra Small Screens */
 @media (max-width: 480px) {
+  .SkillsSection {
+    padding: 40px 20px; /* Significantly reduced padding */
+  }
+
+  .skillsH1 {
+    font-size: 36px; /* Increased from 32px */
+  }
+
+  .skillsP {
+    font-size: 16px; /* Increased from 13px */
+  }
+
   .skillsGrid {
     grid-template-columns: repeat(1, 1fr);
   }

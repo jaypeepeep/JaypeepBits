@@ -2,10 +2,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 20px;
+  padding: 50px 20px; /* Reduce padding for smaller screens */
   background-color: white;
   color: black;
-  padding: 100px;
 }
 
 .AboutContainer {
@@ -15,11 +14,14 @@
   max-width: 1200px;
   width: 100%;
   margin: 0 auto;
+  flex-direction: column; /* Stack content for smaller screens */
 }
 
 .AboutContent {
   display: flex;
   flex-direction: column;
+  width: 100%;
+  text-align: center; /* Center text for better alignment */
 }
 
 .AboutHeader {
@@ -32,11 +34,45 @@
   font-family: Inter, sans-serif;
   font-style: normal;
   line-height: normal;
-  font-size: 70px;
+  font-size: 50px;
   font-weight: 800;
+  text-align: center;
 }
 
 .BoxContainer {
   display: flex;
   flex-direction: column;
+  width: 100%;
+  gap: 20px;
+}
+
+.BottomBox {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.BottomBox > div {
+  flex: 1;
+}
+
+/* Mobile Responsive Adjustments */
+@media screen and (max-width: 768px) {
+  .AboutSection {
+    padding: 30px;
+  }
+
+  .AboutH1 {
+    font-size: 35px; /* Smaller text for mobile */
+  }
+
+  .BottomBox {
+    flex-direction: column; /* Stack items on mobile */
+    gap: 15px;
+  }
+
+  .BoxContainer {
+    gap: 15px;
+  }
 }

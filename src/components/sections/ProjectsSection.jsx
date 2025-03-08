@@ -53,6 +53,7 @@ This web app helps students find dormitories near their university. It offers ea
               description="
 Our thesis project where we created a tool that helps generate and fix missing handwriting data from pen tablets. The tool makes it easier to work with small or incomplete datasets, improving data accuracy and usability through a simple interface."
               image={scbvaegan}
+              link="https://github.com/jaypeepeep/SC-Beta-VAE-GAN.git"
             />
           </div>
         </div>

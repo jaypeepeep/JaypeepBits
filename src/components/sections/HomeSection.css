@@ -113,3 +113,128 @@
   margin: 0px;
   margin-bottom: 20px;
 }
+
+/* Responsive Adjustments */
+@media (max-width: 1024px) {
+  .HomeH1 {
+    font-size: 80px;
+  }
+
+  .HomeP {
+    font-size: 28px;
+  }
+}
+
+@media (max-width: 768px) {
+  .HomeContainer {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .HomeLeft,
+  .HomeRight {
+    max-width: 100%;
+  }
+
+  .HomeH1 {
+    font-size: 90px;
+  }
+
+  .HomeP {
+    font-size: 30px;
+  }
+
+  .HomeImg {
+    max-width: 400px;
+  }
+}
+
+@media (max-width: 576px) {
+  .HomeH1 {
+    font-size: 100px;
+  }
+
+  .HomeP {
+    font-size: 32px;
+  }
+
+  .HomeBtn {
+    width: 200px;
+    height: 60px;
+    font-size: 22px;
+  }
+
+  .HomeImg {
+    max-width: 350px;
+  }
+}
+
+@media (max-width: 768px) {
+  .HomeContainer {
+    flex-direction: column;
+    text-align: center;
+    height: auto;
+    gap: 20px;
+  }
+
+  .HomeLeft {
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .HomeH1 {
+    font-size: 50px;
+  }
+
+  .highlighted-container,
+  .beforeHighlight,
+  .afterhighlight {
+    font-size: 50px;
+  }
+
+  .HomeP {
+    font-size: 20px;
+    width: 90%;
+  }
+
+  .HomeBtn {
+    width: 160px;
+    height: 50px;
+    font-size: 18px;
+  }
+
+  .HomeRight {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
+  .HomeImg {
+    max-width: 300px;
+    min-width: 200px;
+  }
+}
+
+@media (max-width: 480px) {
+  .HomeH1 {
+    font-size: 40px;
+  }
+
+  .highlighted-container,
+  .beforeHighlight,
+  .afterhighlight {
+    font-size: 40px;
+  }
+
+  .HomeP {
+    font-size: 18px;
+    width: 90%;
+  }
+
+  .HomeImg {
+    max-width: 250px;
+  }
+}

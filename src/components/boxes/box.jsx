@@ -8,6 +8,10 @@ const Box = ({ title, content }) => {
     padding: "50px",
     margin: "20px",
     display: "flex",
+    flex: 1, // Make boxes take equal space
+    minWidth: "250px", // Prevent boxes from shrinking too much
+    maxWidth: "100%", // Ensure responsiveness
+    boxSizing: "border-box",
   };
 
   const contentStyle = {
@@ -24,6 +28,7 @@ const Box = ({ title, content }) => {
     fontWeight: "800",
     lineHeight: "normal",
     marginTop: "0px",
+    textAlign: "center",
   };
 
   const labelStyle = {
@@ -34,6 +39,8 @@ const Box = ({ title, content }) => {
     fontWeight: "500",
     lineHeight: "normal",
     marginBottom: "10px",
+    textAlign: "center",
+    wordWrap: "break-word", // Prevent long text overflow
   };
 
   const descriptionStyle = {
@@ -44,6 +51,8 @@ const Box = ({ title, content }) => {
     fontWeight: "700",
     lineHeight: "normal",
     margin: "0px",
+    textAlign: "center",
+    wordWrap: "break-word",
   };
 
   return (

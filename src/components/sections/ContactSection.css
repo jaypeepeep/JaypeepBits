@@ -1,0 +1,127 @@
+.ContactSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: black;
+  color: white;
+  padding: 100px 20px; /* Adjust padding for smaller screens */
+}
+
+.contactContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  flex-direction: column; /* Ensures content stacks */
+}
+
+.contactContent {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+/* Header */
+.contactHeader {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  flex-direction: column;
+}
+
+.contactH1 {
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  line-height: normal;
+  font-size: 50px; /* Reduced for mobile */
+  font-weight: 800;
+  margin: 0px;
+}
+
+/* Highlight */
+.highlighted {
+  color: #24b600;
+}
+
+/* Contact Paragraph */
+.contactP {
+  color: #fff;
+  font-family: Inter;
+  font-size: 20px; /* Adjusted for mobile */
+  font-weight: 500;
+  text-align: justify;
+  max-width: 100%;
+}
+
+/* Contact Box */
+.contactBox {
+  display: flex;
+  flex-direction: row;
+  margin-top: 30px;
+  gap: 50px;
+}
+
+/* Left Section */
+.contactLeft {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+/* Contact & Social Information */
+.contactInformation,
+.socialInformation {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  gap: 20px;
+}
+
+/* Right Section */
+.contactRight {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .contactH1 {
+    font-size: 40px; /* Adjust header size */
+  }
+
+  .contactP {
+    font-size: 18px;
+  }
+
+  .contactBox {
+    flex-direction: column; /* Stack contact form below details */
+    align-items: center;
+    text-align: center;
+  }
+
+  .contactLeft,
+  .contactRight {
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .contactH1 {
+    font-size: 32px; /* Further reduce header */
+  }
+
+  .contactP {
+    font-size: 16px;
+  }
+
+  .contactBox {
+    flex-direction: column;
+    gap: 30px;
+  }
+}

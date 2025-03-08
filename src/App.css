@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+  background-color: black;
+}
+
+/* Main container */
+div {
+  display: flex;
+  flex-direction: row; /* Keep sidebar and content in row */
+  width: 100%;
+}
+
+/* Sidebar */
+nav {
+  position: fixed;
+  width: 250px;
+  height: 100vh;
+  background-color: #fff;
+  transition: transform 0.3s ease-in-out;
+  z-index: 10; /* Ensure it stays above */
+}
+
+nav,
+main {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+/* Main Content */
+main {
+  flex: 1;
+  margin-left: 250px;
+  min-width: calc(100% - 250px); /* Ensures it doesn't shrink too much */
+  overflow-x: hidden;
+  position: relative; /* Ensures it layers correctly */
+  z-index: 1; /* Keeps it above the background */
+}
+
+/* Responsive Fix */
+@media (max-width: 768px) {
+  nav {
+    width: 200px;
+  }
+
+  main {
+    margin-left: 200px;
+    min-width: calc(100% - 200px);
+  }
+}
+
+@media (max-width: 576px) {
+  nav {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+
+  main {
+    margin-left: 0;
+    width: 100%;
+    min-width: 100%;
+  }
+}

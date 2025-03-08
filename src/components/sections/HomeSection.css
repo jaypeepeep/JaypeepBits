@@ -1,0 +1,240 @@
+.HomeSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: black;
+  color: white;
+  height: 100vh;
+}
+
+.HomeContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.HomeH1,
+.HomeP {
+  margin: 0;
+  color: #fff;
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  line-height: normal;
+}
+
+.highlight {
+  color: #24b600;
+  font-weight: 800;
+}
+
+.HomeH1 {
+  font-size: 70px;
+  font-weight: 800;
+}
+
+.HomeP {
+  margin-bottom: 30px;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.HomeBtn {
+  width: 168px;
+  height: 56px;
+  border-radius: 10px;
+  background: #fff;
+  color: #000;
+  font-family: Inter, sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  cursor: pointer;
+  border: 2px solid transparent;
+  transition: all 0.3s ease;
+}
+
+.HomeBtn:hover {
+  background: #28a745;
+  color: #fff;
+  border: 2px solid #28a745;
+  transform: scale(1.05);
+}
+
+.HomeLeft {
+  display: flex;
+  flex-direction: column;
+  margin-left: 80px;
+}
+
+.HomeRight {
+  display: flex;
+}
+
+.HomeImg {
+  width: 100%;
+  max-width: 497px;
+  min-width: 400px;
+  height: auto;
+  flex-shrink: 0;
+}
+
+.highlighted-container {
+  display: block;
+  font-size: 70px;
+  font-weight: 800;
+  color: #24b600;
+}
+
+.highlighted {
+  display: inline-block;
+}
+
+.beforeHighlight {
+  font-size: 70px;
+  font-weight: 800;
+  color: #fff;
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  line-height: normal;
+}
+
+.afterhighlight {
+  font-size: 70px;
+  font-weight: 800;
+  color: #fff;
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  line-height: normal;
+  margin: 0px;
+  margin-bottom: 20px;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 1024px) {
+  .HomeH1 {
+    font-size: 80px;
+  }
+
+  .HomeP {
+    font-size: 28px;
+  }
+}
+
+@media (max-width: 768px) {
+  .HomeContainer {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .HomeLeft,
+  .HomeRight {
+    max-width: 100%;
+  }
+
+  .HomeH1 {
+    font-size: 90px;
+  }
+
+  .HomeP {
+    font-size: 30px;
+  }
+
+  .HomeImg {
+    max-width: 400px;
+  }
+}
+
+@media (max-width: 576px) {
+  .HomeH1 {
+    font-size: 100px;
+  }
+
+  .HomeP {
+    font-size: 32px;
+  }
+
+  .HomeBtn {
+    width: 200px;
+    height: 60px;
+    font-size: 22px;
+  }
+
+  .HomeImg {
+    max-width: 350px;
+  }
+}
+
+@media (max-width: 768px) {
+  .HomeContainer {
+    flex-direction: column;
+    text-align: center;
+    height: auto;
+    gap: 20px;
+  }
+
+  .HomeLeft {
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .HomeH1 {
+    font-size: 50px;
+  }
+
+  .highlighted-container,
+  .beforeHighlight,
+  .afterhighlight {
+    font-size: 50px;
+  }
+
+  .HomeP {
+    font-size: 20px;
+    width: 90%;
+  }
+
+  .HomeBtn {
+    width: 160px;
+    height: 50px;
+    font-size: 18px;
+  }
+
+  .HomeRight {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
+  .HomeImg {
+    max-width: 300px;
+    min-width: 200px;
+  }
+}
+
+@media (max-width: 480px) {
+  .HomeH1 {
+    font-size: 40px;
+  }
+
+  .highlighted-container,
+  .beforeHighlight,
+  .afterhighlight {
+    font-size: 40px;
+  }
+
+  .HomeP {
+    font-size: 18px;
+    width: 90%;
+  }
+
+  .HomeImg {
+    max-width: 250px;
+  }
+}

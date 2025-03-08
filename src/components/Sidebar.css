@@ -11,6 +11,8 @@
   background: white;
   padding-top: 20px;
   transition: transform 0.3s ease-in-out;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  z-index: 100;
 }
 
 /* Ensure content takes up available space */
@@ -54,10 +56,70 @@
   height: 30px;
 }
 
+/* Menu Toggle Button */
+.menu-toggle {
+  display: none;
+  position: fixed;
+  top: 15px;
+  left: 15px;
+  background: white;
+  border: none;
+  border-radius: 10px; /* Increased border-radius for rounded corners */
+  cursor: pointer;
+  z-index: 1000;
+  width: 60px; /* Slightly increased width */
+  height: 60px; /* Slightly increased height */
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Added shadow for depth */
+  transition: all 0.3s ease;
+  padding: 10px; /* Added some padding to make the button larger and more clickable */
+  border: 2px solid #24b600; /* Added border with color matching theme */
+}
+
+/* Hover effect for better feedback */
+.menu-toggle:hover {
+  background: #f5f5f5;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3); /* Slightly stronger shadow on hover */
+}
+
+/* Hamburger Icon */
+.hamburger {
+  width: 30px;
+  height: 24px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.hamburger span {
+  display: block;
+  height: 4px;
+  width: 100%;
+  background: #24b600;
+  border-radius: 2px;
+  transition: all 0.3s ease;
+}
+
+/* Hamburger Animation */
+.hamburger.open span:nth-child(1) {
+  transform: translateY(10px) rotate(45deg);
+}
+
+.hamburger.open span:nth-child(2) {
+  opacity: 0;
+}
+
+.hamburger.open span:nth-child(3) {
+  transform: translateY(-10px) rotate(-45deg);
+}
+
 /* Mobile Responsive */
 @media screen and (max-width: 768px) {
   .SidebarSection {
     transform: translateX(-100%);
+    width: 230px;
   }
 
   .SidebarSection.open {
@@ -65,14 +127,18 @@
   }
 
   .menu-toggle {
-    position: fixed;
-    top: 15px;
-    left: 15px;
-    background: #24b600;
-    color: white;
-    padding: 10px;
-    border: none;
-    cursor: pointer;
-    z-index: 1000;
+    display: flex;
+  }
+
+  /* Add space for main content when sidebar is hidden */
+  main {
+    margin-left: 0;
+  }
+}
+
+/* Desktop view */
+@media screen and (min-width: 769px) {
+  main {
+    margin-left: 250px; /* Match sidebar width */
   }
 }

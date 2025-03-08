@@ -36,7 +36,7 @@ const ContactSection = () => {
                   iconSrc={mobileIcon}
                   iconAlt="Call Icon"
                   label="Phone"
-                  linkText="+63 996 3492 811"
+                  linkText="+63 966 3492 811"
                   linkHref="tel:+639963492811"
                 />
                 <InfoItem
